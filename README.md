@@ -1,30 +1,55 @@
 FinNinja Solutions – Risk Register Project aligned with NIST SP 800-30 Rev. 1 principles
 
-Scenario:
-FinNinja Solutions is a mock 200-person FinTech startup handling sensitive customer, payment, and employee data. As the GRC Analyst, I developed the organization’s first formal risk register due to the absence of documented risks and policies.
+Role Targeted:
+Junior GRC Analyst / Risk Analyst
 
-Description of the Project:
-I developed a risk register for a simulated FinTech organization by defining seven core assets and creating associated risk statements reflecting realistic business and security risks.
-The assessment followed a structured approach aligned with NIST SP 800-30 principles, incorporating threat–vulnerability analysis, likelihood and impact scoring, and risk-based control recommendations. Remediation guidance was informed by NIST SP 800-53.
-The analysis focused on likelihood, impact, and control recommendations, while acknowledging that a full implementation would include validated threat sources, formal control effectiveness testing, and residual risk analysis.
-Each risk included a justification statement, and the current state was documented by identifying existing (or simulated) controls and using them as the baseline for likelihood and impact scoring—ensuring ratings reflected actual control effectiveness and operational exposure.
+Context (What I Tested / Investigated):
+I created a risk register for FinNinja Solutions, a mock FinTech company handling customer, payment, and employee data. I reviewed key assets and looked at possible threats, vulnerabilities, and existing controls to understand the organization’s risk exposure.
 
-Purpose of the Project:
-To simulate a real-world GRC engagement by conducting a structured risk assessment that aligns with NIST SP 800-30 principles and developing a risk register that supports system availability, data protection, regulatory compliance, and operational resilience.
+Problem Statement:
+The organization did not have a formal risk register or structured way to track and manage risks, which made it difficult to understand security and compliance exposure.
 
-What Tools I Used:
-• NIST SP 800-30 (Risk Assessment Methodology)
-• NIST SP 800-53 (Control Mapping & Remediation Guidance)
-• Excel (risk register development)
-• Likelihood and impact scoring model (1–5 scale)
-• Control mapping and remediation planning
+Methodology & Frameworks Used:
+
+NIST SP 800-30 (Risk Assessment process)
+NIST SP 800-53 (Control mapping)
+Basic likelihood and impact scoring (1–5 scale)
+Threat and vulnerability analysis
+
+Tools Used:
+
+Excel risk register
+Likelihood and impact scoring model
+Basic control mapping using NIST SP 800-53
+
+What I Did:
+
+Identified seven key business and technical assets
+Wrote risk statements based on realistic threats and vulnerabilities
+Reviewed existing (or assumed) controls to set a baseline risk level
+Scored risks using likelihood and impact
+Documented why each risk was rated a certain way
+Mapped risks to NIST SP 800-53 controls for possible mitigation
+Built a structured risk register in Excel
+
+Key Findings:
+
+No existing risk register or formal risk tracking process
+High exposure to risks involving sensitive customer and payment data
+Limited visibility into how effective controls actually were
+No clear prioritization of risks
+
+Recommendations / Outcome:
+
+Create a formal risk register and ongoing risk management process
+Focus on high-risk areas involving sensitive data
+Use NIST SP 800-53 to help guide control improvements
+Set up regular risk reviews to keep the register updated
 
 What I Learned:
-• Applied NIST SP 800-30 to assess risks across assets, threats, vulnerabilities, and control environments
-• Developed structured, business-relevant risk statements
-• Scored likelihood and impact to prioritize risks
-• Created risk justification statements to support scoring decisions
-• Evaluated existing controls to ensure realistic, control-informed risk ratings
-• Translated technical risks into business impact using CIA principles
-• Built a defensible risk register to support decision-making and remediation
-• Aligned risk treatment recommendations with NIST SP 800-53
+
+Learned how to apply NIST SP 800-30 to identify and assess risks
+Gained experience writing simple, structured risk statements
+Understood how likelihood and impact scoring helps prioritize risks
+Learned how to connect risks to security controls using NIST SP 800-53
+Improved my ability to explain technical risks in business terms
